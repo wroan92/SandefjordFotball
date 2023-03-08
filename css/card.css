@@ -6,11 +6,9 @@
 }
 
 .card-container {
-    display: flex;
     border: 2px solid rgb(35, 35, 129);
     width: 100%;
     margin: 10px;
-    padding: 10px;
     background-color: rgb(68, 68, 208);
 }
 
@@ -23,7 +21,24 @@
 .card-container a {
     text-decoration: none;
     color: white;
-    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
+
+.date-box {
+    width: 15%;
+    text-align: center;
+}
+
+.game-info-box {
+    width: 70%;
+    text-align: center;
+}
+.buy-ticket-box {
+    width: 15%;
+    text-align: center;
+}
+
 
 
